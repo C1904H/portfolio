@@ -67,10 +67,12 @@ button:focus-visible {
   }
 } */
 
-/* @import "tailwindcss"; */
+@import '@fontsource/nunito';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -99,6 +101,7 @@ button:focus-visible {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem
   }
+  
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -125,7 +128,32 @@ button:focus-visible {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%
   }
+
+  body {
+    @apply bg-background text-foreground font-sans; /* Use Nunito font */
+  }
+
+  h1 {
+    @apply text-4xl font-bold tracking-tight leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold tracking-tight leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+
+  p {
+    @apply text-base leading-relaxed;
+  }
+
+  a {
+    @apply text-primary hover:underline;
+  }
 }
+
 @layer base {
   * {
     @apply border-border;
