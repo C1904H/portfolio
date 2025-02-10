@@ -21,7 +21,7 @@ const Home = () => (
     <div className="my-4 border-t border-border"></div>
     <Button
       className="bg-[#90B7B7] text-primary-foreground hover:bg-primary-500 p-3 mt-4"
-      onClick={() => window.open('Corinne-Haggerty-Resume.pdf', '_blank')}
+      onClick={() => window.open(`${import.meta.env.BASE_URL}Corinne-Haggerty-Resume.pdf`, '_blank')}
     >
       Download Resume
     </Button>

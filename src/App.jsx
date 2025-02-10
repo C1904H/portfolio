@@ -84,7 +84,7 @@ export default function Portfolio() {
             <Button
               className="bg-[#90b7b7] text-primary-foreground hover:bg-primary-500 rounded-md px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base font-medium transition duration-300 w-auto sm:w-auto"
               onClick={() =>
-                window.open('Corinne-Haggerty-Resume.pdf', '_blank')
+                window.open(`${import.meta.env.BASE_URL}Corinne-Haggerty-Resume.pdf`, '_blank')
               }
             >
               Resume
