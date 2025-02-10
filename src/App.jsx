@@ -32,7 +32,7 @@ export default function Portfolio() {
   }, [darkMode]);
 
   return (
-    <Router>
+    <Router basename='/portfolio'>
       <div
         className={`min-h-screen px-6 py-12 ${
           darkMode ? 'bg-gray-900 text-white' : 'bg-[#f8f8f8] text-grey'
@@ -84,7 +84,7 @@ export default function Portfolio() {
             <Button
               className="bg-[#90b7b7] text-primary-foreground hover:bg-primary-500 rounded-md px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base font-medium transition duration-300 w-auto sm:w-auto"
               onClick={() =>
-                window.open('Corinne-Haggerty-Resume.pdf', '_blank')
+                window.open('/Corinne-Haggerty-Resume.pdf', '_blank')
               }
             >
               Resume
@@ -141,7 +141,7 @@ export default function Portfolio() {
               <button
                 className="block w-full text-left px-6 py-3 hover:bg-gray-200 dark:hover:bg-gray-700"
                 onClick={() => {
-                  window.open('Corinne-Haggerty-Resume.pdf', '_blank');
+                  window.open('/Corinne-Haggerty-Resume.pdf', '_blank');
                   setIsMenuOpen(false);
                 }}
               >
