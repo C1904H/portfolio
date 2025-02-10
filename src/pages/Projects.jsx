@@ -16,8 +16,8 @@ import { Link } from 'react-router-dom';
 const projects = [
   {
     title: 'Recipe App',
-    thumbnail: '/recipe-min.jpg',
-    image: '/recipeApp.jpg',
+    thumbnail: 'recipe-min.jpg',
+    image: 'recipeApp.jpg',
     description:
       'A web app built using Python-based Django framework. The app allows users to login, view, search, edit, and add recipes. Features data analysis and visualization of recipes using a range of charts.',
     technologies: ['Python', 'Django', 'PostgreSQL', 'Railway', 'Cloudinary'],
