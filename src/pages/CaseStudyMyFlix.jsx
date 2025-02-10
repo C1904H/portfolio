@@ -39,7 +39,7 @@ const CaseStudyMyFlix = () => {
         </div>
         <div className="image-section md:w-1/2 mt-3"> 
           <img
-            src="myFlixClient_img.jpg"
+            src={`${import.meta.env.BASE_URL}myFlixClient_img.jpg`}
             alt="Movie Library View"
             className="w-full h-auto rounded-lg shadow-md" 
           />
@@ -84,7 +84,7 @@ const CaseStudyMyFlix = () => {
         </div>
         <div className="image-section md:w-1/2 ml-4">
           <img
-            src="codeExample.png"
+            src={`${import.meta.env.BASE_URL}codeExample.png`}
             alt="Backend API Example"
             className="w-auto h-auto max-h-[600px] rounded-lg shadow-md"
           />
@@ -97,7 +97,7 @@ const CaseStudyMyFlix = () => {
       <section className="content-with-image flex flex-col md:flex-row items-start gap-8">
         <div className="image-section md:w-1/2">
           <img
-            src="movieApi_img.png"
+            src={`${import.meta.env.BASE_URL}movieApi_img.png`}
             alt="Movie Library View"
             className="w-full h-auto rounded-lg shadow-md"
           />
@@ -188,7 +188,7 @@ const CaseStudyMyFlix = () => {
 
         <div className="image-section flex justify-center items-center mt-3">
           <img
-            src="profileView.png"
+            src={`${import.meta.env.BASE_URL}profileView.png`}
             alt="Profile View"
             className="max-w-s md:max-w-xl lg:max-w-3xl w-full rounded-lg shadow-md"
           />
