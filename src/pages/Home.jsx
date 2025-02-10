@@ -1,10 +1,11 @@
 import { Button } from '@/components/ui/button';
 import 'tailwindcss/tailwind.css';
+import myImage from 'profileportrait.jpg';
 
 const Home = () => (
   <div className="p-6 bg-[#EAE3EA] flex flex-col items-center text-center dark:bg-gray-900">
     <img
-      src="profileportrait.jpg"
+      src={myImage} 
       className="w-48 h-48 rounded-full"
       alt="Corinne Haggerty Portrait"
     />
