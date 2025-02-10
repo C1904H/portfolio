@@ -26,29 +26,29 @@ const projects = [
   },
   {
     title: 'myFlix React App',
-    thumbnail: '/myFlix-min.jpg',
-    image: '/myFlixClient_img.jpg',
+    thumbnail: 'myFlix-min.jpg',
+    image: 'myFlixClient_img.jpg',
     description:
       'A full-stack JavaScript development built using the MERN stack. The client-side for myFlix movie app used existing server-side code (REST API and database). Users can sign up / login in, browse movies (including description, image, genre and director), select favorite movies or search for a movie by title.  Users can navigate to their personal profile where they can update their information, view favorite movies or delete account.',
     technologies: ['MongoDB', 'Express', 'React', 'Node.js'],
     liveLink: 'https://myflix1000.netlify.app',
     githubLink: 'https://github.com/C1904H/myFlix-client',
-    caseStudy: '/case-study/myflix'
+    caseStudy: 'case-study/myflix'
   },
   {
     title: 'Chat App',
-    thumbnail: '/chat-app-min.jpg',
-    image: '/chatApp_img.jpg',
+    thumbnail: 'chat-app-min.jpg',
+    image: 'chatApp_img.jpg',
     description:
       'A chat app for mobile devices using React Native. The app provides users with a chat interface and options to take, upload and share images and location. Data can be stored online and offline.',
     technologies: ['React Native', 'Expo', 'Firebase', 'Gifted Chat'],
     githubLink: 'https://github.com/C1904H/chat-app',
-    demoVideo: '/chitChat.mp4'
+    demoVideo: 'chitChat.mp4'
   },
   {
     title: 'Meet App',
-    thumbnail: '/meet-app-min.jpg',
-    image: '/MeetApp_img1.jpg',
+    thumbnail: 'meet-app-min.jpg',
+    image: 'MeetApp_img1.jpg',
     description:
       'A serverless, progressive web application (PWA) build using React and test-driven development techniques. The application uses a Google Calendar API to fetch upcoming events and OAuth2 authentication flow. Users can explore events by city and choose the number of events to display on screen.',
     technologies: [
