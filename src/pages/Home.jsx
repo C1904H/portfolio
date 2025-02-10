@@ -1,12 +1,14 @@
 import { Button } from '@/components/ui/button';
 import 'tailwindcss/tailwind.css';
+import myImage from '/profileportrait.jpg';
 
 const Home = () => (
   <div className="p-6 bg-[#EAE3EA] flex flex-col items-center text-center dark:bg-gray-900">
     <img
-      src={`${import.meta.env.BASE_URL}profileportrait.png`} 
+      // src={`${import.meta.env.BASE_URL}profileportrait.png`} 
+      src={myImage}
       className="w-48 h-48 rounded-full"
-      alt="Corinne Haggerty Portrait"
+      alt="Portrait Img"
     />
     <h1 className="text-4xl md:text-5xl font-bold mt-3 p-3">
       Corinne Haggerty
