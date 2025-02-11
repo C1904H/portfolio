@@ -28,7 +28,7 @@ const Contact = () => (
           <FaGithub className="text-5xl" />
         </a>
         <a
-          href="https://www.linkedin.com/in/corinne-haggerty-2b98706b"
+          href="https://www.linkedin.com/in/corinne-haggerty"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 dark:text-gray-400 hover:text-blue-700"
