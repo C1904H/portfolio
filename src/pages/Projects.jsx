@@ -43,7 +43,8 @@ const projects = [
       'A chat app for mobile devices using React Native. The app provides users with a chat interface and options to take, upload and share images and location. Data can be stored online and offline.',
     technologies: ['React Native', 'Expo', 'Firebase', 'Gifted Chat'],
     githubLink: 'https://github.com/C1904H/chat-app',
-    demoVideo: 'chitChat.mp4'
+    demoVideo: 'chitChat.mp4',
+    caseStudy: 'case-study/chat-app'
   },
   {
     title: 'Meet App',

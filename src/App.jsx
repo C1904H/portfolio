@@ -9,6 +9,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import CaseStudyMyFlix from './pages/CaseStudyMyFlix';
+import CaseStudyChatApp from './pages/CaseStudyChatApp';
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -175,6 +176,7 @@ export default function Portfolio() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects/case-study/myflix" element={<CaseStudyMyFlix />} />
+          <Route path="/projects/case-study/chat-app" element={<CaseStudyChatApp />} />
         </Routes>
         </div>
     </Router>
