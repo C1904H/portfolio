@@ -57,7 +57,7 @@ const About = ({ setActivePage }) => (
     <p className="text-xl leading-7 mt-4">
       <button
         onClick={() => setActivePage('contact')}
-        className="text-[#008080] font-bold hover:underline focus:outline-none"
+        className="text-teal-800 font-bold hover:underline focus:outline-none"
       >
         &nbsp;Contact me
       </button>

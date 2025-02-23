@@ -84,6 +84,9 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			},
 				highlight: '#facc15', // Example highlight color (yellow)
+				teal: {
+					800: '#008080',
+				}
   		}
   	}
   },

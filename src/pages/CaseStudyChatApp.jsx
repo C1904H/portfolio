@@ -5,12 +5,12 @@ const CaseStudyChatApp = () => {
   return (
     <div className="container mt-4 p-6">
       <div className="flex flex-col items-center text-center mb-8">
-        <h1 className="text-4xl font-bold">Case Study: Chat App</h1>
+        <h1 className="text-5xl font-bold">Case Study: Chat App</h1>
       </div>
 
       <section className="content-with-image flex flex-col md:flex-row items-start mt-4 gap-8">
         <div className="text-section md:w-1/2">
-          <h2 className="section-title text-3xl font-bold mt-3">Overview</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Overview</h2>
           <br />
           <p className="text-xl leading-7">
             Chat App is a real-time native mobile application designed for both
@@ -18,7 +18,7 @@ const CaseStudyChatApp = () => {
             share images, and exchange location data.
           </p>
           <br />
-          <h2 className="section-title text-3xl font-bold mt-3">
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">
             Purpose and Context
           </h2>
           <br />
@@ -34,7 +34,7 @@ const CaseStudyChatApp = () => {
             indispensable skill for modern web developers.
           </p>
           <br />
-          <h2 className="section-title text-3xl font-bold mt-3">Objective</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Objective</h2>
           <br />
           <p className="text-xl leading-7">
             The primary objective was to build a fully functional chat
@@ -46,7 +46,7 @@ const CaseStudyChatApp = () => {
         <div className="image-section md:w-1/2 mt-3">
           <img
             src={`${import.meta.env.BASE_URL}chatApp_img.jpg`}
-            alt="Movie Library View"
+            alt="Chat App Image"
             className="w-full h-auto rounded-lg shadow-md"
           />
         </div>
@@ -54,14 +54,14 @@ const CaseStudyChatApp = () => {
       <hr className="my-8" />
 
       <section>
-          <h2 className="section-title text-3xl font-bold mt-3">
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">
             Development Duration
           </h2>
           <ul className="text-xl leading-7 list-disc ml-6">
             <li> 14 Days.</li>
           </ul>
           <br />
-          <h2 className="section-title text-3xl font-bold mt-3">Credits</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Credits</h2>
           <p className="text-xl leading-7">
             I was the sole developer of this project, receiving guidance and
             feedback from my tutor and mentor.
@@ -71,7 +71,7 @@ const CaseStudyChatApp = () => {
             <li>Mentor: Emmanuel Nsambu</li>
           </ul>
           <br />
-          <h2 className="section-title text-3xl font-bold mt-3">
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">
             Methodologies & Technologies Used
           </h2>
           <ul className="text-xl leading-7 list-disc ml-6">
@@ -88,18 +88,18 @@ const CaseStudyChatApp = () => {
       <hr className="my-8" />
 
       <section className="mt-8">
-        <h2 className="section-title text-3xl font-bold">Approach</h2>
+        <h2 className="section-title text-3xl font-bold text-teal-800">Approach</h2>
         <section className="content-with-image flex flex-col md:flex-row items-start gap-8">
           <div className="image-section md:w-1/2">
             <img
-              src={`${import.meta.env.BASE_URL}movieApi_img.png`}
-              alt="Movie Library View"
+              src={`${import.meta.env.BASE_URL}chatAppCode.png`}
+              alt="Code snippet of Chat App"
               className="w-full h-auto rounded-lg shadow-md"
             />
           </div>
 
           <div className="text-section md:w-1/2">
-            <h3 className="section-title text-2xl font-semibold mt-3">
+            <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">
               Environment Setup
             </h3>
             <p className="text-xl leading-7 mt-3">
@@ -109,7 +109,7 @@ const CaseStudyChatApp = () => {
               and applying the required styling.
             </p>
 
-            <h3 className="section-title text-2xl font-semibold mt-3">
+            <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">
               Chat UI and Functionality
             </h3>
             <p className="text-xl leading-7 mt-3">
@@ -118,7 +118,7 @@ const CaseStudyChatApp = () => {
               input, message display, and the basic chat functionality.
             </p>
 
-            <h3 className="section-title text-2xl font-semibold mt-3">
+            <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">
               Offline Data Storage
             </h3>
             <p className="text-xl leading-7 mt-3">
@@ -127,7 +127,7 @@ const CaseStudyChatApp = () => {
               messages even without an internet connection.
             </p>
 
-            <h3 className="section-title text-2xl font-semibold mt-3">
+            <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">
               Communication Features
             </h3>
             <p className="text-xl leading-7 mt-3">
@@ -143,7 +143,7 @@ const CaseStudyChatApp = () => {
       <hr className="my-8" />
 
       <section>
-        <h2 className="section-title text-3xl font-bold mt-3">
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">
           What Went Well
         </h2>
         <p className="text-xl leading-7 mt-3">
@@ -159,7 +159,7 @@ const CaseStudyChatApp = () => {
         </p>
         <br />
 
-        <h2 className="section-title text-3xl font-bold mt-3">Challenges</h2>
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Challenges</h2>
         <p className="text-xl leading-7 mt-3">
           During development, emulator connectivity issues arose while setting
           up Expo on Android Studio. I resolved these by researching online
@@ -168,7 +168,7 @@ const CaseStudyChatApp = () => {
           perseverance and effective troubleshooting.
         </p>
         <br />
-        <h2 className="section-title text-3xl font-bold mt-3">
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">
           Future Improvements
         </h2>
         <p className="text-xl leading-7 mt-3">
@@ -191,7 +191,7 @@ const CaseStudyChatApp = () => {
           </li>
         </ul>
         <br />
-        <h2 className="section-title text-3xl font-bold mt-3">Conclusion</h2>
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Conclusion</h2>
         <p className="text-xl leading-7 mt-3">
           Building the Chat App with React Native was a rewarding and insightful
           experience. I thoroughly enjoyed the challenge of learning a new

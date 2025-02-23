@@ -1,16 +1,17 @@
 // src/pages/CaseStudyMyFlix.jsx
 import React from 'react';
+import 'tailwindcss/tailwind.css';
 
 const CaseStudyMyFlix = () => {
   return (
     <div className="container mt-4 p-6"> 
       <div className="flex flex-col items-center text-center mb-8" >
-        <h1 className="text-4xl font-bold">Case Study: myFlix App</h1> 
+        <h1 className="text-5xl font-bold">Case Study: myFlix App</h1> 
       </div>
 
       <section className="content-with-image flex flex-col md:flex-row items-start mt-4 gap-8"> 
         <div className="text-section md:w-1/2"> 
-          <h2 className="section-title text-3xl font-bold mt-3">Overview</h2> 
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Overview</h2> 
           <p className="text-xl leading-7"> 
             myFlix is a full-stack movie database application built using React,
             designed to allow users to explore a library of films. Users can
@@ -19,7 +20,7 @@ const CaseStudyMyFlix = () => {
             personal profile page, where they can save their favorite movies and
             manage their account settings.
           </p>
-          <h2 className="section-title text-3xl font-bold mt-3">Purpose and Context</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Purpose and Context</h2>
           <p className="text-xl leading-7">
             I developed the myFlix app as part of my full-stack web development
             course with CareerFoundry. This project served as a capstone
@@ -27,7 +28,7 @@ const CaseStudyMyFlix = () => {
             the frontend and backend of a web application using the MERN
             (MongoDB, Express, React, Node.js) stack.
           </p>
-          <h2 className="section-title text-3xl font-bold mt-3">Objective</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Objective</h2>
           <p className="text-xl leading-7">
             The primary objective of this project was to build a fully
             functional client-side application that seamlessly interacts with an
@@ -49,7 +50,7 @@ const CaseStudyMyFlix = () => {
 
       <section className="content-with-image flex flex-col md:flex-row">
       <div className="text-section md:w-1/2">
-        <h2 className="section-title text-3xl font-bold">User Needs</h2>
+        <h2 className="section-title text-3xl font-bold text-teal-800">User Needs</h2>
         <p className="text-xl leading-7">
           Many movie enthusiasts struggle to find a simple, personalized way to
           explore and manage their favorite films. Existing platforms can be
@@ -60,13 +61,13 @@ const CaseStudyMyFlix = () => {
           and engaging experience that enhances movie discovery.
         </p>
      
-          <h2 className="section-title text-3xl font-bold mt-3">Duration</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Duration</h2>
           <ul className="text-xl leading-7 list-disc ml-6"> 
             <li>Backend development: 28 days.</li>
             <li>Frontend development: 35 days.</li>
             <li>Total duration: 63 days.</li>
           </ul>
-          <h2 className="section-title text-3xl font-bold mt-3">Credits</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Credits</h2>
           <p className="text-xl leading-7">
             I was the sole developer of this project, receiving guidance and
             feedback from my tutor and mentor.
@@ -75,7 +76,7 @@ const CaseStudyMyFlix = () => {
             <li>Tutor: Roibeard Mac Unfraigh</li>
             <li>Mentor: Emmanuel Nsambu</li>
           </ul>
-          <h2 className="section-title text-3xl font-bold mt-3">Methodologies & Technologies Used</h2>
+          <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Methodologies & Technologies Used</h2>
           <ul className="text-xl leading-7 list-disc ml-6"> 
             <li>Backend: Node.js, Express.js, MondoDB, Mongoose</li>
             <li>Frontend: React, React Bootstrap, Redux</li>
@@ -93,7 +94,8 @@ const CaseStudyMyFlix = () => {
       <hr className="my-8" />  
 
       <section className="mt-8">
-      <h2 className="section-title text-3xl font-bold">Backend Development</h2>
+      <h2 className="section-title text-3xl font-bold text-teal-800">Backend Development</h2>
+      <br />
       <section className="content-with-image flex flex-col md:flex-row items-start gap-8">
         <div className="image-section md:w-1/2">
           <img
@@ -104,7 +106,7 @@ const CaseStudyMyFlix = () => {
         </div>
         
         <div className="text-section md:w-1/2">
-          <h3 className="section-title text-2xl font-semibold mt-3">The Database</h3>
+          <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">The Database</h3>
           <p className="text-xl leading-7 mt-3">
             The first stage of the project was developing the movie database and
             REST API using Node.js, Express, and Mongoose. I implemented CRUD
@@ -113,7 +115,7 @@ const CaseStudyMyFlix = () => {
             interaction with the frontend.
           </p>
 
-          <h3 className="section-title text-2xl font-semibold mt-3">Key Features and Decisions:</h3>
+          <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">Key Features and Decisions:</h3>
           <ul className="text-xl leading-7 list-disc ml-6 mt-3">
             <li>
               Security: To safeguard user data, I implemented JWT-based
@@ -138,13 +140,13 @@ const CaseStudyMyFlix = () => {
       <hr className="my-8"/>
 
       <section className="mt-8">
-        <h2 className="section-title text-3xl font-bold">Frontend Development</h2>
+        <h2 className="section-title text-3xl font-bold text-teal-800">Frontend Development</h2>
         <p className="text-xl leading-7 mt-3">
           Once the API was successfully deployed, I developed the frontend using
           React, integrating the REST API to allow users to interact with the
           database.
         </p>
-        <h3 className="section-title text-2xl font-semibold mt-3">Key UI Features:</h3>
+        <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">Key UI Features:</h3>
         <ul className="text-xl leading-7 list-disc ml-6 mt-3">
           <li>
             Authentication Views: Users can register, log in, and manage their
@@ -167,7 +169,7 @@ const CaseStudyMyFlix = () => {
             and includes a movie search bar.
           </li>
         </ul>
-        <h3 className="section-title text-2xl font-semibold mt-3">State Management & Styling:</h3>
+        <h3 className="section-title text-2xl font-semibold mt-3 text-teal-800">State Management & Styling:</h3>
         <ul className="text-xl leading-7 list-disc ml-6 mt-3">
           <li>
             State-Based Routing: I used React Router to navigate between views.
@@ -186,7 +188,7 @@ const CaseStudyMyFlix = () => {
           <li>Deployment: The frontend was deployed and hosted on Netlify.</li>
         </ul>
 
-        <div className="image-section flex justify-center items-center mt-3">
+        <div className="image-section flex justify-center items-center mt-3 text-teal-800">
           <img
             src={`${import.meta.env.BASE_URL}profileView.png`}
             alt="Profile View"
@@ -197,7 +199,7 @@ const CaseStudyMyFlix = () => {
       <hr className="my-8"/>
 
       <section>
-        <h2 className="section-title text-3xl font-bold mt-3">What Went Well</h2>
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">What Went Well</h2>
         <p className="text-xl leading-7 mt-3">
           I thoroughly enjoyed developing the myFlix app, particularly the
           experience of integrating both frontend and backend components into a
@@ -207,7 +209,7 @@ const CaseStudyMyFlix = () => {
         </p>
       </section>
       <section>
-        <h2 className="section-title text-3xl font-bold mt-3">Challenges</h2>
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Challenges</h2>
         <p className="text-xl leading- mt-37">
           One of the biggest challenges I faced was implementing the "favorite
           movies" feature on the user profile page. Initially, I struggled with
@@ -222,7 +224,7 @@ const CaseStudyMyFlix = () => {
       </section>
 
       <section>
-        <h2 className="section-title text-3xl font-bold mt-3">Future Improvements</h2>
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Future Improvements</h2>
         <p className="text-xl leading-7 mt-3">
           The myFlix app has great potential for scalability. Some enhancements
           I would like to implement include:
@@ -249,7 +251,7 @@ const CaseStudyMyFlix = () => {
     </section>
 
       <section>
-        <h2 className="section-title text-3xl font-bold mt-3">Conclusion</h2> 
+        <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Conclusion</h2> 
         <p className="text-xl leading-7 mt-3"> 
           Developing the myFlix app was a highly educational and rewarding
           experience. It allowed me to deepen my understanding of full-stack
