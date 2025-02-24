@@ -194,7 +194,7 @@ const CaseStudyChatApp = () => {
         <h2 className="section-title text-3xl font-bold mt-3 text-teal-800">Conclusion</h2>
         <p className="text-xl leading-7 mt-3">
           Building the Chat App with React Native was a rewarding and insightful
-          experience. I thoroughly enjoyed the challenge of learning a new
+          project. I thoroughly enjoyed the challenge of learning a new
           framework and seeing the app come to life. This project significantly
           deepened my understanding of mobile app development and reinforced the
           critical importance of user experience in app design. I am eager to

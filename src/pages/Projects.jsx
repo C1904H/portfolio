@@ -22,7 +22,8 @@ const projects = [
       'A web app built using Python-based Django framework. The app allows users to login, view, search, edit, and add recipes. Features data analysis and visualization of recipes using a range of charts.',
     technologies: ['Python', 'Django', 'PostgreSQL', 'Railway', 'Cloudinary'],
     liveLink: 'https://recipe-app-2-production.up.railway.app/',
-    githubLink: 'https://github.com/C1904H/recipe-app-2'
+    githubLink: 'https://github.com/C1904H/recipe-app-2',
+    caseStudy: 'case-study/recipe-app'
   },
   {
     title: 'myFlix React App',

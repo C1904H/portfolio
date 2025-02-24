@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import CaseStudyRecipeApp from './pages/CaseStudyRecipeApp';
 import CaseStudyMyFlix from './pages/CaseStudyMyFlix';
 import CaseStudyChatApp from './pages/CaseStudyChatApp';
 
@@ -175,6 +176,7 @@ export default function Portfolio() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/case-study/recipe-app" element={<CaseStudyRecipeApp />} />
           <Route path="/projects/case-study/myflix" element={<CaseStudyMyFlix />} />
           <Route path="/projects/case-study/chat-app" element={<CaseStudyChatApp />} />
         </Routes>
